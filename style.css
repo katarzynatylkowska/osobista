@@ -100,6 +100,8 @@ nav {
     font-style: italic;
     line-height: 1.5;
     color: var(--color-primary);
+    text-align: justify;
+    text-indent: 2rem;
 }
 
 .hero-quote cite {
@@ -108,9 +110,11 @@ nav {
     font-size: 1rem;
     font-style: normal;
     color: var(--color-secondary);
+    text-indent: 4rem;
 }
 
 .hero-about p {
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 1rem;
     line-height: 1.7;
     color: var(--color-text-light);
