@@ -54,6 +54,24 @@ nav {
     font-size: 1.5rem;
     font-weight: 500;
     color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.logo-phone {
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--color-secondary);
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    margin-top: 0.2rem;
+    transition: color 0.3s ease;
+}
+
+.logo-phone:hover {
+    color: var(--color-primary);
 }
 
 .nav-links {
@@ -124,7 +142,7 @@ nav {
 .btn {
     display: inline-block;
     padding: 1rem 2.5rem;
-    background: var(--color-primary);
+    background: var(--color-secondary);
     color: white;
     text-decoration: none;
     font-size: 0.9rem;
@@ -136,7 +154,7 @@ nav {
 }
 
 .btn:hover {
-    background: var(--color-secondary);
+    background: var(--color-primary);
     transform: translateY(-2px);
 }
 
